@@ -10,7 +10,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("linkFileShare1_bot")
 	DB_CHANNEL = int(os.environ.get("-1001424477540"))
 	BOT_OWNER = int(os.environ.get("1747137573"))
-	DATABASE_URL = os.environ.get("-1001424477540")
+	DATABASE_URL = os.environ.get("mongodb+srv://bulanbintang69:bulanbintang69@cluster0.hqhq7.mongodb.net/cluster0?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("-1001569616638")
 	LOG_CHANNEL = os.environ.get("1001424477540", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
